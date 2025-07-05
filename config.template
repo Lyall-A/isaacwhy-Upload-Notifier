@@ -19,6 +19,6 @@
     ],
     "channelHandle": "isaacwhyy",
     "monitorInterval": 30000,
-    "notifications": 5,
+    "notifications": 3,
     "notificationDelay": 1000
 }

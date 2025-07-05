@@ -1,0 +1,7 @@
+services:
+  isaacwhy-upload-notifier:
+    build: .
+    container_name: isaacwhy-upload-notifier
+    restart: unless-stopped
+    volumes:
+      - ./config.json:/data/config.json
