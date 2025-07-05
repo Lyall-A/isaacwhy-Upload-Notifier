@@ -1,0 +1,24 @@
+{
+    "discordWebhook": "https://discord.com/api/webhooks/",
+    "googleApiKey": "",
+    "log": "🚨🚨🚨🚨 @everyone https://youtu.be/{videoId} 🚨🚨🚨🚨",
+    "homeAssistantBaseUrl": "",
+    "homeAssistantApiKey": "",
+    "homeAssistantTriggers": [
+        {
+            "domain": "light",
+            "service": "turn_on",
+            "entityId": "light.main_light",
+            "params": {
+                "effect": "Strobe Mega",
+                "rgb_color": [255, 255, 255],
+                "brightness": 255
+            },
+            "log": "TURNED ON MAIN LIGHT WITH STROBE EFFECT 🚨🚨🚨🚨🚨🚨"
+        }
+    ],
+    "channelHandle": "isaacwhyy",
+    "monitorInterval": 30000,
+    "notifications": 5,
+    "notificationDelay": 1000
+}
